@@ -1,0 +1,51 @@
+
+form button {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #181818;
+    color: rgb(248, 244, 237);
+    border: none;
+    padding: 8px;
+  }
+
+  form button:hover {
+    cursor: pointer;
+  }
+
+.transition-enter {
+    opacity: 0;
+}
+
+.transition-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+    
+}
+
+.transition-exit {
+    opacity: 1;
+}
+
+.transition-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+}
+
+/* === APPEAR TRANSITION === */
+
+.transition-appear {
+    opacity: 0;
+    transform: translateX(5%);
+}
+
+.transition-appear-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.transition-appear-done {
+    opacity: 1;
+}
