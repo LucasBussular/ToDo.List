@@ -18,6 +18,10 @@ html, body {
 	padding: 8px;
 }
 
+.main-title {
+    text-align: right;
+}
+
 h1 {
   margin: 8px 0;
 }

@@ -7,6 +7,8 @@ export default function NewTask(props) {
     const { handleSubmit, handleChange, addTask, isValid } = props
 
     return (
+        <>
+        <h1 className='main-title'>TaskList.</h1>
         <form onSubmit={handleSubmit}>
             <input
                 placeholder='New Task'                
@@ -34,5 +36,6 @@ export default function NewTask(props) {
             </>
             )}
         </form>
+        </>
     )
 }
