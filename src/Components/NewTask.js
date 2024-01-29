@@ -2,6 +2,7 @@ import React from 'react'
 import { CSSTransition } from 'react-transition-group'
 import '../Style/button.css'
 
+
 export default function NewTask(props) {
 
     const { handleSubmit, handleChange, addTask, isValid } = props
@@ -33,9 +34,10 @@ export default function NewTask(props) {
                 >
                     <button type="submit">Add Task</button>
                 </CSSTransition>
-            </>
+                </>
             )}
         </form>
+        
         </>
     )
 }

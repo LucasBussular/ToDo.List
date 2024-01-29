@@ -3,6 +3,7 @@ import NewTask from './Components/NewTask';
 import TaskList from './Components/TaskList';
 import { useState } from 'react';
 import './Style/index.css'
+import Todolist from '../src/Icons/todolist.png'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
         handleDelete={handleDelete}
         taskList={taskList}
       />
+      <img className='main-image' src={Todolist}/>
     </>
   );
 }
